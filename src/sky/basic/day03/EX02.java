@@ -193,9 +193,45 @@ public class EX02 {
 		System.out.print("나이는? ");
 		age = sc.nextInt();
 		
-		String myInfo = "이름은 %s, 몸무게는 %.1f, 나이는 %d살이다.";
+		String myInfo = "이름은 %s, 몸무게는 %.1f, 나이는 %d살이다.\n";
 		System.out.printf(myInfo, name, weight, age);
 		
+		
+		
+		// ***12번 문제
+		int birth;
+		int myAge;
+		
+		int first;
+		int second;
+		int third;
+		int fourth;
+
+		
+		Scanner sc2 = new Scanner(System.in);
+		
+		System.out.println("생년월일(yyyymmdd 8자리를 입력하세요: ");
+		birth = sc2.nextInt();
+		
+		first = birth / 10000000; 
+		second = birth % 10000000 / 1000000;
+		third = birth % 10000000 % 1000000 / 100000;
+		fourth = birth % 10000000 % 1000000 % 100000 / 10000;
+		
+		//year = first + second;
+		System.out.println(first);
+		System.out.println(second);
+		System.out.println(third);
+		System.out.println(fourth);
+		
+		
+
+		System.out.println("태어난 연도(yyyy) 4자리를 입력하세요: ");
+		birth = sc2.nextInt();
+		
+		myAge = 2021 - birth + 1;
+		
+		System.out.printf("당신의 나이는 %d입니다.\n ", myAge);
 		
 		
 		
