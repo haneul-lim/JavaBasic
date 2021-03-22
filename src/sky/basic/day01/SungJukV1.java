@@ -1,5 +1,6 @@
 package sky.basic.day01;
 
+
 /**
  * 
  * @author sky
@@ -40,5 +41,6 @@ public class SungJukV1 {
 		System.out.printf("국어: %d, 영어: %d, 수학: %d\n", kor, eng, mat);
 		System.out.printf("총점: %d, 평균: %f, 학점: %s\n", tot, avg, grd);
 
+		
 	}
 }

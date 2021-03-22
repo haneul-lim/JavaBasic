@@ -1,4 +1,4 @@
-package sky.basic.day4;
+package sky.basic.day04;
 
 import java.util.Scanner;
 
