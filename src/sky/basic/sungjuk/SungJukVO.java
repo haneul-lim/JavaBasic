@@ -3,13 +3,13 @@ package sky.basic.sungjuk;
 
 public class SungJukVO {
     // 멤버변수
-    private String name;
-    private int kor;
-    private int eng;
-    private int mat;
-    private int tot;
-    private double avg;
-    private char grd;
+    protected String name;
+    protected int kor;
+    protected int eng;
+    protected int mat;
+    protected int tot;
+    protected double avg;
+    protected char grd;
 
     // 생성자
     public SungJukVO() { }
